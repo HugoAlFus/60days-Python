@@ -37,7 +37,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 14  | Organizador de Archivos         | 🔲     |
 | 15  | Tablas de Multiplicar           | 🔲     |
 
-## 📅 Desafíos de la Fase 2
+## 🌐 Desafíos de la Fase 2
 
 | Día | Proyecto                              | Estado |
 |-----|---------------------------------------|--------|

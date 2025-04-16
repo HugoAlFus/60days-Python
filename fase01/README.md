@@ -19,7 +19,7 @@ del ejercicio.
 
 ---
 
-## 📅 Desafíos de la Fase 1
+## 🧩 Desafíos de la Fase 1
 
 | Día | Proyecto                        | Estado |
 |-----|---------------------------------|--------|
