@@ -3,7 +3,7 @@
 ¡Bienvenido al reto de **60 Días de Programación con Python**! 🚀  
 El objetivo es construir un proyecto o resolver un desafío diario, empezando con fundamentos y subiendo de nivel hacia
 APIs, automatización, desarrollo web y ciencia de datos.
-
+Versión [word](https://docs.google.com/document/d/1kbTi_IZrkIQ7h4ZOMg-QYWSi0fN63-pTFT2p9lhOiGY/edit?usp=sharing)
 ---
 
 ## 🗺️ ESTRUCTURA DEL RETO
@@ -99,7 +99,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 
 ---
 
-## 📌 Créditos
-
+## 📌 Créditos 
 Creado por [Hugo Almodóvar Fuster](https://www.linkedin.com/in/hugoalmodovar/)  
 Inspirado en el 60 Days Coding Challenge de [@maticukier](https://www.linkedin.com/in/matias-cukier-034004230/)
+
