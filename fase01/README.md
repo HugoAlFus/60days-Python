@@ -23,7 +23,7 @@ del ejercicio.
 
 | Día | Proyecto                        | Estado |
 |-----|---------------------------------|--------|
-| 1   | Hola Mundo                      | 🔲     |
+| 1   | Hola Mundo                      | ✅      |
 | 2   | Calculadora Básica              | 🔲     |
 | 3   | Conversor de Temperatura        | 🔲     |
 | 4   | Generador de Contraseñas        | 🔲     |
