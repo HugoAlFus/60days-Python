@@ -13,13 +13,13 @@ while operation < 1 or operation > 4:
 def _check_number(number):
     while not number.isdigit():
         number = input("Por favor introduzca un valor válido: ")
-    return number
+    return int(number)
 
 
 number_1 = input("Indique el primer número que quiere usar: ")
-number_1 = int(_check_number(number_1))
+number_1 = _check_number(number_1)
 number_2 = input("Indique el segundo número que quiere usar: ")
-number_2 = int(_check_number(number_2))
+number_2 = _check_number(number_2)
 
 match operation:
     case 1:
