@@ -1,9 +1,13 @@
 # 🐍 60 DÍAS DE PYTHON - RETO DE PROGRAMACIÓN
 
+![Logo](assets/img/60DaysOfPython.png)
+
 ¡Bienvenido al reto de **60 Días de Programación con Python**! 🚀  
 El objetivo es construir un proyecto o resolver un desafío diario, empezando con fundamentos y subiendo de nivel hacia
 APIs, automatización, desarrollo web y ciencia de datos.
+
 Versión [word](https://docs.google.com/document/d/1kbTi_IZrkIQ7h4ZOMg-QYWSi0fN63-pTFT2p9lhOiGY/edit?usp=sharing)
+
 ---
 
 ## 🗺️ ESTRUCTURA DEL RETO
@@ -22,7 +26,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | Día | Proyecto                        | Estado |
 |-----|---------------------------------|--------|
 | 1   | Hola Mundo                      | ✅      |
-| 2   | Calculadora Básica              | 🔲     |
+| 2   | Calculadora Básica              | ✅      |
 | 3   | Conversor de Temperatura        | 🔲     |
 | 4   | Generador de Contraseñas        | 🔲     |
 | 5   | Contador de Palabras            | 🔲     |
@@ -37,7 +41,9 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 14  | Organizador de Archivos         | 🔲     |
 | 15  | Tablas de Multiplicar           | 🔲     |
 
-## 🌐 Desafíos de la Fase 2
+---
+
+### 🌐 Fase 2: Archivos, APIs y Automatización (Días 16–30)
 
 | Día | Proyecto                              | Estado |
 |-----|---------------------------------------|--------|
@@ -56,6 +62,8 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 28  | Recordatorio Diario (Automatizado)    | 🔲     |
 | 29  | Visualizador de Datos (Matplotlib)    | 🔲     |
 | 30  | Juego de Trivia (API)                 | 🔲     |
+
+---
 
 ### 🛠️ Fase 3: Web con Flask & Proyectos Intermedios (Días 31-45)
 
@@ -76,6 +84,8 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 43  | Buscador de Películas (API + Favoritos)   | 🔲     |
 | 44  | Web para Subir Archivos                   | 🔲     |
 | 45  | Portafolio Personal con Flask             | 🔲     |
+
+---
 
 ### 🔬 Fase 4: Ciencia de Datos, Django y Automatización Avanzada (Días 46-60)
 
@@ -99,7 +109,8 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 
 ---
 
-## 📌 Créditos 
+## 📌 Créditos
+
 Creado por [Hugo Almodóvar Fuster](https://www.linkedin.com/in/hugoalmodovar/)  
 Inspirado en el 60 Days Coding Challenge de [@maticukier](https://www.linkedin.com/in/matias-cukier-034004230/)
 
