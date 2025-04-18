@@ -27,7 +27,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 |-----|---------------------------------|--------|
 | 1   | Hola Mundo                      | ✅      |
 | 2   | Calculadora Básica              | ✅      |
-| 3   | Conversor de Temperatura        | 🔲     |
+| 3   | Conversor de Temperatura        | ✅      |
 | 4   | Generador de Contraseñas        | 🔲     |
 | 5   | Contador de Palabras            | 🔲     |
 | 6   | Palíndromos                     | 🔲     |
