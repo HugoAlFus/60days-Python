@@ -2,7 +2,7 @@ operation = 0
 while operation < 1 or operation > 4:
     operation = input("""--Seleccione una de estas operaciones--\n1. Sumar\n2. Restar\n3. Multiplicar\n4. Dividir\n""")
     if operation.isdigit():
-        operation = float(operation)
+        operation = int(operation)
         if operation < 1 or operation > 4:
             print("Por favor ingrese un número que sea valido (1,4)")
     else:

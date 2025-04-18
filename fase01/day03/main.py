@@ -2,7 +2,7 @@ conversion = 0
 while conversion < 1 or conversion > 2:
     conversion = input("""--Selecciona el tipo de conversion--\n1.Celsius a Fahrenheit\n2.Fahrenheit a Celsius\n""")
     if conversion.isdigit():
-        conversion = float(conversion)
+        conversion = int(conversion)
         if conversion < 1 or conversion > 2:
             print("Por favor ingrese un número que sea valido (1,2)")
     else:
