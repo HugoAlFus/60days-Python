@@ -26,7 +26,7 @@ del ejercicio.
 | 1   | Hola Mundo                      | ✅      |
 | 2   | Calculadora Básica              | ✅      |
 | 3   | Conversor de Temperatura        | ✅      |
-| 4   | Generador de Contraseñas        | 🔲     |
+| 4   | Generador de Contraseñas        | ✅      |
 | 5   | Contador de Palabras            | 🔲     |
 | 6   | Palíndromos                     | 🔲     |
 | 7   | Juego del Adivina el Número     | 🔲     |
