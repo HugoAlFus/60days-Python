@@ -29,7 +29,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 2   | Calculadora Básica              | ✅      |
 | 3   | Conversor de Temperatura        | ✅      |
 | 4   | Generador de Contraseñas        | ✅      |
-| 5   | Contador de Palabras            | 🔲     |
+| 5   | Contador de Palabras            | ✅      |
 | 6   | Palíndromos                     | 🔲     |
 | 7   | Juego del Adivina el Número     | 🔲     |
 | 8   | Simulador de Dados              | 🔲     |
