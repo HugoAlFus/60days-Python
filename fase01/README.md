@@ -28,7 +28,7 @@ del ejercicio.
 | 3   | Conversor de Temperatura        | ✅      |
 | 4   | Generador de Contraseñas        | ✅      |
 | 5   | Contador de Palabras            | ✅      |
-| 6   | Palíndromos                     | 🔲     |
+| 6   | Palíndromos                     | ✅      |
 | 7   | Juego del Adivina el Número     | 🔲     |
 | 8   | Simulador de Dados              | 🔲     |
 | 9   | Cronómetro Simple               | 🔲     |
