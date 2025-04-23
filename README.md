@@ -32,7 +32,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 5   | Contador de Palabras            | ✅      |
 | 6   | Palíndromos                     | ✅      |
 | 7   | Juego del Adivina el Número     | ✅      |
-| 8   | Simulador de Dados              | 🔲     |
+| 8   | Simulador de Dados              | ✅      |
 | 9   | Cronómetro Simple               | 🔲     |
 | 10  | Calculadora de Edad             | 🔲     |
 | 11  | Conversor de Divisas (Estático) | 🔲     |
