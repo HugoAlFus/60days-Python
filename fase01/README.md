@@ -21,23 +21,23 @@ del ejercicio.
 
 ## 🧩 Desafíos de la Fase 1
 
-| Día | Proyecto                        | Estado |
-|-----|---------------------------------|--------|
-| 1   | Hola Mundo                      | ✅      |
-| 2   | Calculadora Básica              | ✅      |
-| 3   | Conversor de Temperatura        | ✅      |
-| 4   | Generador de Contraseñas        | ✅      |
-| 5   | Contador de Palabras            | ✅      |
-| 6   | Palíndromos                     | ✅      |
-| 7   | Juego del Adivina el Número     | ✅      |
-| 8   | Simulador de Dados              | ✅      |
-| 9   | Cronómetro Simple               | 🔲     |
-| 10  | Calculadora de Edad             | 🔲     |
-| 11  | Conversor de Divisas (Estático) | 🔲     |
-| 12  | Gestor de Tareas (Texto)        | 🔲     |
-| 13  | Juego Piedra, Papel o Tijera    | 🔲     |
-| 14  | Organizador de Archivos         | 🔲     |
-| 15  | Tablas de Multiplicar           | 🔲     |
+| Día |            Proyecto             | Estado |
+|:---:|:-------------------------------:|:------:|
+|  1  |           Hola Mundo            |   ✅    |
+|  2  |       Calculadora Básica        |   ✅    |
+|  3  |    Conversor de Temperatura     |   ✅    |
+|  4  |    Generador de Contraseñas     |   ✅    |
+|  5  |      Contador de Palabras       |   ✅    |
+|  6  |           Palíndromos           |   ✅    |
+|  7  |   Juego del Adivina el Número   |   ✅    |
+|  8  |       Simulador de Dados        |   ✅    |
+|  9  |        Cronómetro Simple        |   ✅    |
+| 10  |       Calculadora de Edad       |   🔲   |
+| 11  | Conversor de Divisas (Estático) |   🔲   |
+| 12  |    Gestor de Tareas (Texto)     |   🔲   |
+| 13  |  Juego Piedra, Papel o Tijera   |   🔲   |
+| 14  |     Organizador de Archivos     |   🔲   |
+| 15  |      Tablas de Multiplicar      |   🔲   |
 
 🔲 *Pendiente* – ✅ *Completado*
 
