@@ -32,7 +32,7 @@ del ejercicio.
 |  7  |   Juego del Adivina el Número   |   ✅    |
 |  8  |       Simulador de Dados        |   ✅    |
 |  9  |        Cronómetro Simple        |   ✅    |
-| 10  |       Calculadora de Edad       |   🔲   |
+| 10  |       Calculadora de Edad       |   ✅    |
 | 11  | Conversor de Divisas (Estático) |   🔲   |
 | 12  |    Gestor de Tareas (Texto)     |   🔲   |
 | 13  |  Juego Piedra, Papel o Tijera   |   🔲   |
