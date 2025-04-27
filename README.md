@@ -36,7 +36,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 |  9  |        Cronómetro Simple        |   ✅    |
 | 10  |       Calculadora de Edad       |   ✅    |
 | 11  | Conversor de Divisas (Estático) |   ✅    |
-| 12  |    Gestor de Tareas (Texto)     |   🔲   |
+| 12  |    Gestor de Tareas (Texto)     |   ✅    |
 | 13  |  Juego Piedra, Papel o Tijera   |   🔲   |
 | 14  |     Organizador de Archivos     |   🔲   |
 | 15  |      Tablas de Multiplicar      |   🔲   |
