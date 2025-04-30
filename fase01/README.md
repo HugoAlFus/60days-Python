@@ -37,7 +37,7 @@ del ejercicio.
 | 12  |    Gestor de Tareas (Texto)     |   ✅    |
 | 13  |  Juego Piedra, Papel o Tijera   |   ✅    |
 | 14  |     Organizador de Archivos     |   ✅    |
-| 15  |      Tablas de Multiplicar      |   🔲   |
+| 15  |      Tablas de Multiplicar      |   ✅    |
 
 🔲 *Pendiente* – ✅ *Completado*
 
