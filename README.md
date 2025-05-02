@@ -48,7 +48,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | Día |               Proyecto                | Estado |
 |:---:|:-------------------------------------:|:------:|
 | 16  |    Lectura y Escritura de Archivos    |   ✅    |
-| 17  |        Lector de Archivos JSON        |   🔲   |
+| 17  |        Lector de Archivos JSON        |   ✅    |
 | 18  |       API de Chistes Aleatorios       |   🔲   |
 | 19  |      Buscador de Canciones (API)      |   🔲   |
 | 20  |      Envío de Emails Automáticos      |   🔲   |
