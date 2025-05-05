@@ -28,7 +28,7 @@ del proyecto.
 | 17  |        Lector de Archivos JSON        |   ✅    |
 | 18  |       API de Chistes Aleatorios       |   ✅    |
 | 19  |      Buscador de Canciones (API)      |   ✅    |
-| 20  |      Envío de Emails Automáticos      |   🔲   |
+| 20  |      Envío de Emails Automáticos      |   ✅    |
 | 21  |         Generador de QR Code          |   🔲   |
 | 22  |  Web Scraping Básico (BeautifulSoup)  |   🔲   |
 | 23  |          Analizador de Logs           |   🔲   |
