@@ -31,7 +31,7 @@ del proyecto.
 | 20  |      Envío de Emails Automáticos      |   ✅    |
 | 21  |         Generador de QR Code          |   ✅    |
 | 22  |  Web Scraping Básico (BeautifulSoup)  |   ✅    |
-| 23  |          Analizador de Logs           |   🔲   |
+| 23  |          Analizador de Logs           |   ✅    |
 | 24  | Conversor de Archivos (PDF, Imágenes) |   🔲   |
 | 25  |    Descargador de Videos (YouTube)    |   🔲   |
 | 26  |        Bot de Telegram Básico         |   🔲   |
