@@ -1,5 +1,5 @@
 import re
-log_file = "../../assets/example/app_example.log"
+log_file = "../../assets/example/otros/app_example.log"
 
 error_lines = 0
 warning_lines = 0

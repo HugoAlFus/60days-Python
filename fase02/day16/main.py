@@ -1,4 +1,4 @@
-PATH = "../../assets/example/"
+PATH = "../../assets/example/documentos/"
 file = input("Indique que fichero quiere abrir, tiene que estar en 'assets/example': ")
 
 

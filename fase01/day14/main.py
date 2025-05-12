@@ -6,7 +6,7 @@ directory = "../../assets/example"
 file_type = {
     "imagenes": [".jpg", ".png", ".gif"],
     "documentos": [".pdf", ".docx", ".txt"],
-    "otros": [".py"]
+    "otros": [".py",".json",".log"]
 }
 
 for folder in file_type:

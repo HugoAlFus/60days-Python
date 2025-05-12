@@ -1,6 +1,6 @@
 import json
 
-PATH = "../../assets/example/"
+PATH = "../../assets/example/otros/"
 FILE_PATH = "example_json.json"
 
 

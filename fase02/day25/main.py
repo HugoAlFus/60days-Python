@@ -8,6 +8,7 @@ videos = {
     "Devil In You Heart": "https://www.youtube.com/watch?v=YQ-KG2Eda-c"
 }
 
+
 # Función para seleccionar un video
 def _select_video():
     option = 0
@@ -23,6 +24,7 @@ def _select_video():
             option = 0
             print("Por favor indique números enteros")
     return option
+
 
 # Seleccionar video
 option_video = _select_video()
