@@ -35,7 +35,7 @@ del proyecto.
 | 24  | Conversor de Archivos (PDF, Imágenes) |   ✅    |
 | 25  |    Descargador de Videos (YouTube)    |   ✅    |
 | 26  |        Bot de Telegram Básico         |   ✅    |
-| 27  |       Conversor de Texto a Voz        |   🔲   |
+| 27  |       Conversor de Texto a Voz        |   ✅    |
 | 28  |  Recordatorio Diario (Automatizado)   |   🔲   |
 | 29  |  Visualizador de Datos (Matplotlib)   |   🔲   |
 | 30  |         Juego de Trivia (API)         |   🔲   |
