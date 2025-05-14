@@ -60,7 +60,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 26  |        Bot de Telegram Básico         |   ✅    |
 | 27  |       Conversor de Texto a Voz        |   ✅    |
 | 28  |  Recordatorio Diario (Automatizado)   |   ✅    |
-| 29  |  Visualizador de Datos (Matplotlib)   |   🔲   |
+| 29  |  Visualizador de Datos (Matplotlib)   |   ✅    |
 | 30  |         Juego de Trivia (API)         |   🔲   |
 
 ---

@@ -37,7 +37,7 @@ del proyecto.
 | 26  |        Bot de Telegram Básico         |   ✅    |
 | 27  |       Conversor de Texto a Voz        |   ✅    |
 | 28  |  Recordatorio Diario (Automatizado)   |   ✅    |
-| 29  |  Visualizador de Datos (Matplotlib)   |   🔲   |
+| 29  |  Visualizador de Datos (Matplotlib)   |   ✅    |
 | 30  |         Juego de Trivia (API)         |   🔲   |
 
 🔲 *Pendiente* – ✅ *Completado*
