@@ -20,8 +20,6 @@ class Question:
 
     def check_user_answer(self, user_answer):
 
-        print(f"Repesuta usuario: {user_answer}")
-        print(f"Valor correcto {self.correct_answer_index}")
         return self.correct_answer_index == user_answer
 
 
