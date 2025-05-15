@@ -38,7 +38,7 @@ del proyecto.
 | 27  |       Conversor de Texto a Voz        |   ✅    |
 | 28  |  Recordatorio Diario (Automatizado)   |   ✅    |
 | 29  |  Visualizador de Datos (Matplotlib)   |   ✅    |
-| 30  |         Juego de Trivia (API)         |   🔲   |
+| 30  |         Juego de Trivia (API)         |   ✅    |
 
 🔲 *Pendiente* – ✅ *Completado*
 
