@@ -1,5 +1,6 @@
-import random
 import html
+import random
+
 import requests
 
 
@@ -8,15 +9,20 @@ class Question:
         self.statement = statement
         self.correct_answer = correct_answer
         self.answers = answers
+        self.correct_answer_index = 0
 
     def print_question(self):
         print(html.unescape(self.statement))
-        for answer in self.answers:
-            print(f"- {answer}")
-        print("Selecciona la opción que crea correcta, (Escriba la respuesta tal y como se muestra): ")
+        for i, answer in enumerate(self.answers, start=1):
+            if answer.lower() == self.correct_answer.lower():
+                self.correct_answer_index = i
+            print(f"- {i}.{html.unescape(answer)}")
 
     def check_user_answer(self, user_answer):
-        return user_answer.casefold() == self.correct_answer.casefold()
+
+        print(f"Repesuta usuario: {user_answer}")
+        print(f"Valor correcto {self.correct_answer_index}")
+        return self.correct_answer_index == user_answer
 
 
 URL = "https://opentdb.com/api.php?amount=10"
@@ -46,12 +52,29 @@ def _convert_json_question(questions):
     return list_questions
 
 
+def _obtain_user_response(question_progress):
+    user_response = 0
+    while user_response < 1 or user_response > len(question_progress.answers):
+        question_progress.print_question()
+        user_response = input("Selecciona la opción que crea correcta, (Escriba el número de la respuesta): ")
+        if user_response.isdigit():
+            user_response = int(user_response)
+            if user_response < 1 or user_response > len(question_progress.answers):
+                print("Por favor ingrese un número que sea válido")
+        else:
+            user_response = 0
+            print("Por favor indique números enteros")
+    return user_response
+
+
 questions = _obtain_questions()
 list_questions = _convert_json_question(questions)
+
 points = 0
+
 for question in list_questions:
-    question.print_question()
-    response = input()
+
+    response = _obtain_user_response(question)
     if question.check_user_answer(response):
         print("Respuesta correcta")
         points += 1
