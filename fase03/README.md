@@ -15,23 +15,23 @@ desarrollo backend y frontend.
 
 ## 📅 Cronograma de Proyectos
 
-| Día |                  Proyecto                  | Estado |
-|:---:|:------------------------------------------:|:------:|
-| 31  |             Mini Blog (Flask)              |   🔲   |
-| 32  |       API REST Básica (Flask + JSON)       |   🔲   |
-| 33  |       Autenticación Simple con Flask       |   🔲   |
-| 34  |   Encuesta Online con Resultados (Flask)   |   🔲   |
-| 35  |  Editor de Imágenes Online (PIL + Flask)   |   🔲   |
-| 36  |            To-Do App con SQLite            |   🔲   |
-| 37  |   Notas con Markdown (Flask + Markdown)    |   🔲   |
-| 38  |       Buscador de Libros (API + Web)       |   🔲   |
-| 39  |       Clon de Twitter (Mini versión)       |   🔲   |
-| 40  |       Chat en Tiempo Real (SocketIO)       |   🔲   |
-| 41  |        Blog con Admin Panel (Flask)        |   🔲   |
-| 42  | Dashboard de Criptomonedas (API + Charts)  |   🔲   |
-| 43  |  Buscador de Películas (API + Favoritos)   |   🔲   |
-| 44  |          Web para Subir Archivos           |   🔲   |
-| 45  |       Portafolio Personal con Flask        |   🔲   |
+| Día |                 Proyecto                  | Estado |
+|:---:|:-----------------------------------------:|:------:|
+| 31  |             Mini Blog (Flask)             |   ✅    |
+| 32  |      API REST Básica (Flask + JSON)       |   🔲   |
+| 33  |      Autenticación Simple con Flask       |   🔲   |
+| 34  |  Encuesta Online con Resultados (Flask)   |   🔲   |
+| 35  |  Editor de Imágenes Online (PIL + Flask)  |   🔲   |
+| 36  |           To-Do App con SQLite            |   🔲   |
+| 37  |   Notas con Markdown (Flask + Markdown)   |   🔲   |
+| 38  |      Buscador de Libros (API + Web)       |   🔲   |
+| 39  |      Clon de Twitter (Mini versión)       |   🔲   |
+| 40  |      Chat en Tiempo Real (SocketIO)       |   🔲   |
+| 41  |       Blog con Admin Panel (Flask)        |   🔲   |
+| 42  | Dashboard de Criptomonedas (API + Charts) |   🔲   |
+| 43  |  Buscador de Películas (API + Favoritos)  |   🔲   |
+| 44  |          Web para Subir Archivos          |   🔲   |
+| 45  |       Portafolio Personal con Flask       |   🔲   |
 
 ---
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .post {
+            background: white;
+            padding: 1em;
+            margin-bottom: 1.5em;
+            border-left: 5px solid #007BFF;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+        .post p {
+            color: #333;
+        }
+        .footer {
+            margin-top: 3em;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Mini Blog</h1>
+
+        {% for post in posts %}
+        <div class="post">
+            <h2>{{ post.title }}</h2>
+            <p><em>{{ post.date }}</em></p>
+            <p>{{ post.content }}</p>
+        </div>
+        {% else %}
+        <p>No hay publicaciones aún.</p>
+        {% endfor %}
+
+        <div class="footer">
+            <p>Mini Blog con Flask</p>
+        </div>
+    </div>
+</body>
+</html>
