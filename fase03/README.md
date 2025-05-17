@@ -18,7 +18,7 @@ desarrollo backend y frontend.
 | Día |                 Proyecto                  | Estado |
 |:---:|:-----------------------------------------:|:------:|
 | 31  |             Mini Blog (Flask)             |   ✅    |
-| 32  |      API REST Básica (Flask + JSON)       |   🔲   |
+| 32  |      API REST Básica (Flask + JSON)       |   ✅    |
 | 33  |      Autenticación Simple con Flask       |   🔲   |
 | 34  |  Encuesta Online con Resultados (Flask)   |   🔲   |
 | 35  |  Editor de Imágenes Online (PIL + Flask)  |   🔲   |
