@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        button {
+            margin-top: 1rem;
+            padding: 8px 16px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>¿Cuál es tu lenguaje de programación favorito?</h2>
+
+    <form action="/votar" method="POST">
+        <label><input type="radio" name="lenguaje" value="Python"> Python</label><br>
+        <label><input type="radio" name="lenguaje" value="JavaScript"> JavaScript</label><br>
+        <label><input type="radio" name="lenguaje" value="Java"> Java</label><br>
+        <label><input type="radio" name="lenguaje" value="C#"> C#</label><br>
+        <label><input type="radio" name="lenguaje" value="Otro"> Otro</label><br>
+        <button type="submit">Votar</button>
+    </form>
+
+</body>
+</html>

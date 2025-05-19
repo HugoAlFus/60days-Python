@@ -20,7 +20,7 @@ desarrollo backend y frontend.
 | 31  |             Mini Blog (Flask)             |   ✅    |
 | 32  |      API REST Básica (Flask + JSON)       |   ✅    |
 | 33  |      Autenticación Simple con Flask       |   ✅    |
-| 34  |  Encuesta Online con Resultados (Flask)   |   🔲   |
+| 34  |  Encuesta Online con Resultados (Flask)   |   ✅    |
 | 35  |  Editor de Imágenes Online (PIL + Flask)  |   🔲   |
 | 36  |           To-Do App con SQLite            |   🔲   |
 | 37  |   Notas con Markdown (Flask + Markdown)   |   🔲   |
