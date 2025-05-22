@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Primera nota",
+    "contenido": "# Mi primera nota",
+    "contenido_html": "<h1>Mi primera nota</h1>"
+  },
+  {
+    "id": 2,
+    "titulo": "Nota pruebas",
+    "contenido": "# Titulo1\r\n## Titulo 2\r\n### Titulo 3\r\nParrafo",
+    "contenido_html": "<h1>Titulo1</h1>\n<h2>Titulo 2</h2>\n<h3>Titulo 3</h3>\n<p>Parrafo</p>"
+  }
+]
