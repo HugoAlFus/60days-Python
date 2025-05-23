@@ -24,7 +24,7 @@ desarrollo backend y frontend.
 | 35  |  Editor de Imágenes Online (PIL + Flask)  |   ✅    |
 | 36  |           To-Do App con SQLite            |   ✅    |
 | 37  |   Notas con Markdown (Flask + Markdown)   |   ✅    |
-| 38  |      Buscador de Libros (API + Web)       |   🔲   |
+| 38  |      Buscador de Libros (API + Web)       |   ✅    |
 | 39  |      Clon de Twitter (Mini versión)       |   🔲   |
 | 40  |      Chat en Tiempo Real (SocketIO)       |   🔲   |
 | 41  |       Blog con Admin Panel (Flask)        |   🔲   |
