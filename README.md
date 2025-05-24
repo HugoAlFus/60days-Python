@@ -77,7 +77,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 36  |           To-Do App con SQLite            |   ✅    |
 | 37  |   Notas con Markdown (Flask + Markdown)   |   ✅    |
 | 38  |      Buscador de Libros (API + Web)       |   ✅    |
-| 39  |      Clon de Twitter (Mini versión)       |   🔲   |
+| 39  |      Clon de Twitter (Mini versión)       |   ✅    |
 | 40  |      Chat en Tiempo Real (SocketIO)       |   🔲   |
 | 41  |       Blog con Admin Panel (Flask)        |   🔲   |
 | 42  | Dashboard de Criptomonedas (API + Charts) |   🔲   |
