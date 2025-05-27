@@ -80,7 +80,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 39  |      Clon de Twitter (Mini versión)       |   ✅    |
 | 40  |      Chat en Tiempo Real (SocketIO)       |   ✅    |
 | 41  |       Blog con Admin Panel (Flask)        |   ✅    |
-| 42  | Dashboard de Criptomonedas (API + Charts) |   🔲   |
+| 42  | Dashboard de Criptomonedas (API + Charts) |   ✅    |
 | 43  |  Buscador de Películas (API + Favoritos)  |   🔲   |
 | 44  |          Web para Subir Archivos          |   🔲   |
 | 45  |       Portafolio Personal con Flask       |   🔲   |

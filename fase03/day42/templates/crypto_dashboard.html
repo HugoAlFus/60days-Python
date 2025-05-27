@@ -1,0 +1,80 @@
+<!-- templates/crypto_dashboard.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>📈 Dashboard Criptomonedas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+    <h1 class="mb-4">📈 Precios de Criptomonedas en Tiempo Real</h1>
+
+    <div class="mb-4">
+        <label for="crypto-select" class="form-label">Selecciona una criptomoneda:</label>
+        <select id="crypto-select" class="form-select">
+            <option value="bitcoin">Bitcoin (BTC)</option>
+            <option value="ethereum">Ethereum (ETH)</option>
+            <option value="dogecoin">Dogecoin (DOGE)</option>
+        </select>
+    </div>
+
+    <canvas id="priceChart" height="100"></canvas>
+</div>
+
+<script>
+    const ctx = document.getElementById('priceChart').getContext('2d');
+    let priceChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Precio (USD)',
+                data: [],
+                borderColor: 'rgba(75, 192, 192, 1)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: { display: true, title: { display: true, text: 'Tiempo' }},
+                y: { display: true, title: { display: true, text: 'Precio en USD' }}
+            }
+        }
+    });
+
+    async function fetchData(crypto) {
+        try {
+            const res = await fetch(`/api/price/${crypto}`);
+            const data = await res.json();
+            const time = new Date().toLocaleTimeString();
+
+            if (priceChart.data.labels.length > 20) {
+                priceChart.data.labels.shift();
+                priceChart.data.datasets[0].data.shift();
+            }
+
+            priceChart.data.labels.push(time);
+            priceChart.data.datasets[0].data.push(data.price);
+            priceChart.update();
+        } catch (err) {
+            console.error("Error al obtener datos:", err);
+        }
+    }
+
+    document.getElementById('crypto-select').addEventListener('change', function () {
+        priceChart.data.labels = [];
+        priceChart.data.datasets[0].data = [];
+    });
+
+    setInterval(() => {
+        const crypto = document.getElementById('crypto-select').value;
+        fetchData(crypto);
+    }, 5000);
+</script>
+
+</body>
+</html>
