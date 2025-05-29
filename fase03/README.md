@@ -30,7 +30,7 @@ desarrollo backend y frontend.
 | 41  |       Blog con Admin Panel (Flask)        |   ✅    |
 | 42  | Dashboard de Criptomonedas (API + Charts) |   ✅    |
 | 43  |  Buscador de Películas (API + Favoritos)  |   ✅    |
-| 44  |          Web para Subir Archivos          |   🔲   |
+| 44  |          Web para Subir Archivos          |   ✅    |
 | 45  |       Portafolio Personal con Flask       |   🔲   |
 
 ---
