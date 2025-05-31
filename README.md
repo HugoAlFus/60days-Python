@@ -91,7 +91,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 
 | Día |                  Proyecto                  | Estado |
 |:---:|:------------------------------------------:|:------:|
-| 46  |        Análisis de Datos con Pandas        |   🔲   |
+| 46  |        Análisis de Datos con Pandas        |   ✅    |
 | 47  |            Gráficos con Seaborn            |   🔲   |
 | 48  |      Web Scraper Avanzado (Selenium)       |   🔲   |
 | 49  |       Reconocimiento de Texto (OCR)        |   🔲   |
