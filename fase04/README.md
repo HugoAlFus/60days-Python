@@ -25,7 +25,7 @@ modernas y desarrollar un proyecto full-stack completo.
 | Día |                  Proyecto                  | Estado |
 |:---:|:------------------------------------------:|:------:|
 | 46  |        Análisis de Datos con Pandas        |   ✅    |
-| 47  |            Gráficos con Seaborn            |   🔲   |
+| 47  |            Gráficos con Seaborn            |   ✅    |
 | 48  |      Web Scraper Avanzado (Selenium)       |   🔲   |
 | 49  |       Reconocimiento de Texto (OCR)        |   🔲   |
 | 50  | Análisis de Sentimientos (TextBlob + Lang) |   🔲   |
