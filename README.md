@@ -93,7 +93,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 |:---:|:------------------------------------------:|:------:|
 | 46  |        Análisis de Datos con Pandas        |   ✅    |
 | 47  |            Gráficos con Seaborn            |   ✅    |
-| 48  |      Web Scraper Avanzado (Selenium)       |   🔲   |
+| 48  |      Web Scraper Avanzado (Selenium)       |   ✅    |
 | 49  |       Reconocimiento de Texto (OCR)        |   🔲   |
 | 50  | Análisis de Sentimientos (TextBlob + Lang) |   🔲   |
 | 51  |   Clasificador de Texto (NLP + Sklearn)    |   🔲   |
