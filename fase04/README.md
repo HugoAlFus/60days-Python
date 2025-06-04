@@ -28,7 +28,7 @@ modernas y desarrollar un proyecto full-stack completo.
 | 47  |            Gráficos con Seaborn            |   ✅    |
 | 48  |      Web Scraper Avanzado (Selenium)       |   ✅    |
 | 49  |       Reconocimiento de Texto (OCR)        |   ✅    |
-| 50  | Análisis de Sentimientos (TextBlob + Lang) |   🔲   |
+| 50  | Análisis de Sentimientos (TextBlob + Lang) |   ✅    |
 | 51  |   Clasificador de Texto (NLP + Sklearn)    |   🔲   |
 | 52  |       Reconocimiento Facial (OpenCV)       |   🔲   |
 | 53  |   Clasificador de Imágenes (ML + Keras)    |   🔲   |
