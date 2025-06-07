@@ -31,7 +31,7 @@ modernas y desarrollar un proyecto full-stack completo.
 | 50  | Análisis de Sentimientos (TextBlob + Lang) |   ✅    |
 | 51  |   Clasificador de Texto (NLP + Sklearn)    |   ✅    |
 | 52  |       Reconocimiento Facial (OpenCV)       |   ✅    |
-| 53  |   Clasificador de Imágenes (ML + Keras)    |   🔲   |
+| 53  |   Clasificador de Imágenes (ML + Keras)    |   ✅    |
 | 54  |         Bot de Twitter Automático          |   🔲   |
 | 55  |                Django Blog                 |   🔲   |
 | 56  |           E-commerce con Django            |   🔲   |
