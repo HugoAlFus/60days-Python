@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+</head>
+<body>
+    <h1>Publicaciones</h1>
+
+    {% if user.is_authenticated %}
+        <p>Hola {{ user.username }} | <a href="{% url 'logout' %}">Cerrar sesión</a></p>
+        <a href="{% url 'post_new' %}">Crear nueva publicación</a>
+    {% else %}
+        <a href="{% url 'login' %}">Iniciar sesión</a>
+    {% endif %}
+
+    <hr>
+
+    {% for post in posts %}
+        <div>
+            <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+            <p>por {{ post.author }} - {{ post.created_at }}</p>
+        </div>
+    {% empty %}
+        <p>No hay publicaciones.</p>
+    {% endfor %}
+</body>
+</html>

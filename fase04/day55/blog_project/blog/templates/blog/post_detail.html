@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <a href="{% url 'post_list' %}">← Volver al listado</a>
+
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <p>por {{ post.author }} el {{ post.created_at }}</p>
+
+    {% if user == post.author %}
+        <p>
+            <a href="{% url 'post_edit' pk=post.pk %}">Editar</a> |
+            <a href="{% url 'post_delete' pk=post.pk %}">Eliminar</a>
+        </p>
+    {% endif %}
+
+    <hr>
+
+    <h3>Comentarios</h3>
+    {% for comment in comments %}
+        <p><strong>{{ comment.author }}</strong>: {{ comment.text }}</p>
+    {% empty %}
+        <p>No hay comentarios aún.</p>
+    {% endfor %}
+
+    <h4>Agregar comentario</h4>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

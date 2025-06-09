@@ -100,7 +100,7 @@ Cada carpeta contiene el código del desafío del día correspondiente.
 | 52  |       Reconocimiento Facial (OpenCV)       |   ✅    |
 | 53  |   Clasificador de Imágenes (ML + Keras)    |   ✅    |
 | 54  |         Bot de Twitter Automático          |   ✅    |
-| 55  |                Django Blog                 |   🔲   |
+| 55  |                Django Blog                 |   ✅    |
 | 56  |           E-commerce con Django            |   🔲   |
 | 57  |             Django + API REST              |   🔲   |
 | 58  |   Dashboard Interactivo (Plotly + Flask)   |   🔲   |
