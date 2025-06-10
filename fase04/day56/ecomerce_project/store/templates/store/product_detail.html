@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>{{ product.name }}</h2>
+<p>{{ product.description }}</p>
+<p>Precio: ${{ product.price }}</p>
+
+<form action="{% url 'add_to_cart' product.pk %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Agregar al carrito</button>
+</form>
+
+</body>
+</html>

@@ -34,7 +34,7 @@ modernas y desarrollar un proyecto full-stack completo.
 | 53  |   Clasificador de Imágenes (ML + Keras)    |   ✅    |
 | 54  |         Bot de Twitter Automático          |   ✅    |
 | 55  |                Django Blog                 |   ✅    |
-| 56  |           E-commerce con Django            |   🔲   |
+| 56  |           E-commerce con Django            |   ✅    |
 | 57  |             Django + API REST              |   🔲   |
 | 58  |   Dashboard Interactivo (Plotly + Flask)   |   🔲   |
 | 59  |  Gestor de Proyectos (Django + Kanban UI)  |   🔲   |
