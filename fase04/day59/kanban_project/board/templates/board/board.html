@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Kanban con Django</title>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+
+        .task {
+            padding: 10px;
+            margin-bottom: 10px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: grab;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="column" id="todo" data-status="todo">
+    <h2>Por hacer</h2>
+    {% for task in todo %}
+        <div class="task" data-id="{{ task.id }}">{{ task.title }}</div>
+    {% endfor %}
+</div>
+<div class="column" id="in_progress" data-status="in_progress">
+    <h2>En progreso</h2>
+    {% for task in in_progress %}
+        <div class="task" data-id="{{ task.id }}">{{ task.title }}</div>
+    {% endfor %}
+</div>
+<div class="column" id="done" data-status="done">
+    <h2>Hecho</h2>
+    {% for task in done %}
+        <div class="task" data-id="{{ task.id }}">{{ task.title }}</div>
+    {% endfor %}
+</div>
+
+<script>
+    document.querySelectorAll('.column').forEach(column => {
+        new Sortable(column, {
+            group: 'kanban',
+            animation: 150,
+            onEnd: function (evt) {
+                const column = evt.to;
+                const status = column.dataset.status;
+                const tasks = Array.from(column.querySelectorAll('.task')).map((el, index) => ({
+                    id: el.dataset.id,
+                    order: index
+                }));
+                fetch('/update/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': '{{ csrf_token }}',
+                    },
+                    body: JSON.stringify({status: status, tasks: tasks})
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>
