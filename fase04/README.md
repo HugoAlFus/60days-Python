@@ -38,7 +38,7 @@ modernas y desarrollar un proyecto full-stack completo.
 | 57  |             Django + API REST              |   ✅    |
 | 58  |   Dashboard Interactivo (Plotly + Flask)   |   ✅    |
 | 59  |  Gestor de Proyectos (Django + Kanban UI)  |   ✅    |
-| 60  |     Proyecto Final - Full Stack Python     |   🔲   |
+| 60  |     Proyecto Final - Full Stack Python     |   ✅    |
 
 ---
 

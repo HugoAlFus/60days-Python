@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.title }}</li>
+        {% empty %}
+            <li>No hay tareas.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

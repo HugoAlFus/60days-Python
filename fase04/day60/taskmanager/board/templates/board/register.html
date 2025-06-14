@@ -1,0 +1,16 @@
+<!-- board/templates/board/register.html -->
+{% extends 'board/base.html' %}
+
+{% block title %}Registrarse{% endblock %}
+
+{% block content %}
+<h1 class="title">Crear cuenta</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="control">
+        <button class="button is-primary" type="submit">Registrarse</button>
+    </div>
+</form>
+{% endblock %}

@@ -1,0 +1,27 @@
+<!-- board/templates/board/board.html -->
+{% extends 'board/base.html' %}
+
+{% block title %}Tablero Kanban{% endblock %}
+
+{% block content %}
+<h1 class="title">Tablero Kanban</h1>
+
+<div class="columns">
+    {% for status in statuses %}
+        <div class="column">
+            <h2 class="subtitle">{{ status }}</h2>
+            <div class="box">
+                {% for task in tasks %}
+                    {% if task.status == status %}
+                        <div class="notification is-info">
+                            <strong>{{ task.title }}</strong>
+                            <p>{{ task.description }}</p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
